@@ -21,7 +21,6 @@ public class Program {
 			conn = DB.getConnection();
 			
 			st = conn.createStatement();
-			
 			rs  = st.executeQuery("SELECT * FROM Department");
 			
 			while(rs.next()) {
